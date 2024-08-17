@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center p-24">
-      <h1 className="text-5xl font-extrabold mb-5">my name is ijon</h1>
+    <main className="flex flex-col items-center justify-center p-5 lg:p-24">
+      <h1 className="text-5xl font-extrabold mb-5 text-center">my name is ijon</h1>
       <Image 
         src="/rarriPFP.jpg"
         alt="me"
@@ -16,7 +16,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center w-3/4 text-xl text-center mt-5">
         <p>i am a full-stack swe building apps that may or may not make money.</p>
         <p>learned to code in 8 months.</p>
-        <ul className="flex flex-col items-center justify-center list-disc ml-5 mt-5 w-5/6 gap-1">
+        <ul className="flex flex-col items-center justify-center list-disc ml-5 mt-5 w-5/6 gap-1 w-full">
           <li>
             built
             <Link href="https://trackr-gl.framer.website/" className="font-bold underline text-blue-500 ml-1">Trackr.gl </Link>
@@ -44,7 +44,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center gap-2 mt-5">
           <h2 className="text-3xl font-bold mt-5">connect with me</h2>
           <div className="flex flex-col items-center justify-center gap-2">
-            <div className="flex flex-row items-center justify-center gap-1">
+            <div className="flex flex-wrap items-center justify-center gap-1">
               <span>Follow me on</span> 
               <Link href="https://x.com/Ijon_k4" className="font-bold underline text-blue-500 ml-1">X(Twitter)</Link>
               <span>for free game and some fun</span>
