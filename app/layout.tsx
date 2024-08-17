@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Site",
+  title: "ijon",
   description: "Personal site for a software engineer",
 };
 

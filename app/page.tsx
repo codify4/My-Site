@@ -16,7 +16,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center w-3/4 text-xl text-center mt-5">
         <p>i am a full-stack swe building apps that may or may not make money.</p>
         <p>learned to code in 8 months.</p>
-        <ul className="flex flex-col items-center justify-center list-disc ml-5 mt-5 w-5/6 gap-1 w-full">
+        <ul className="flex flex-col items-center justify-center list-disc ml-5 mt-5 w-5/6 gap-1">
           <li>
             built
             <Link href="https://trackr-gl.framer.website/" className="font-bold underline text-blue-500 ml-1">Trackr.gl </Link>
